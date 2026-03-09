@@ -2,6 +2,21 @@
 
 A **Go** port of [colorls](https://github.com/athityakumar/colorls): list directory contents with colors and icons. No Ruby required — a single binary, fast startup.
 
+---
+
+## About this project
+
+This repository is a **faithful refactor** of the original **[colorls](https://github.com/athityakumar/colorls)** Ruby gem by **[Athitya Kumar](https://github.com/athityakumar/)**. All behavior, CLI options, config format, and default icons/colors aim to match the original so you can drop in this binary without changing habits or config.
+
+- **Original project:** [github.com/athityakumar/colorls](https://github.com/athityakumar/colorls)  
+- **Original author:** [Athitya Kumar](https://github.com/athityakumar/)  
+- **This port:** Same UX and `~/.config/colorls/` layout; implemented in Go for a single binary and no Ruby dependency.  
+- **Refactor notes:** See [REFACTORING.md](REFACTORING.md) for the Ruby → Go file mapping and verification.
+
+If you like this tool, consider starring the [original colorls repo](https://github.com/athityakumar/colorls) as well.
+
+---
+
 ## Features
 
 - **Colored output** — Files, directories, and file types get distinct colors
@@ -188,5 +203,6 @@ colorls-go/
 
 ## License
 
-MIT. See [LICENSE](LICENSE).  
-Original [colorls](https://github.com/athityakumar/colorls) by [Athitya Kumar](https://github.com/athityakumar/); this Go port keeps the same CLI and behavior.
+MIT. See [LICENSE](LICENSE).
+
+This project is a port of the original [colorls](https://github.com/athityakumar/colorls) (MIT, © 2017 [Athitya Kumar](https://github.com/athityakumar/)). The Go implementation maintains the same CLI and behavior; credit for the design and UX goes to the original author and contributors.
