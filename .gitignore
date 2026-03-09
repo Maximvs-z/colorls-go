@@ -1,0 +1,35 @@
+# Binaries
+colorls
+colorls-*
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build and test
+*.test
+*.out
+go.work
+/vendor/
+
+# Coverage
+*.coverprofile
+coverage.html
+coverage.out
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local / env (do not commit)
+.env
+.env.local
+.env.*.local
